@@ -1,0 +1,32 @@
+body {
+  background-image: url(./img/easter-egg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+h1 {
+  margin-left: 25%;
+  margin-top: 49%;
+  font-size: 50px;
+  color: #8f0e13;
+}
+.timer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+.field {
+  padding: 20px;
+  margin: 10px;
+  background: linear-gradient(
+    0deg,
+    rgba(213, 183, 133, 1) 5%,
+    rgba(36, 32, 55, 1) 50%,
+    rgba(213, 183, 133, 1) 95%
+  );
+
+  color: #ffff00;
+  font-size: 30px;
+  border-radius: 15px;
+}
